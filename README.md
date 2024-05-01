@@ -56,8 +56,8 @@ python -m audio_utils.audio_processor --audio_path data/audio/test_audio.wav --s
 
 Результат работы(файл сохраняется в директорию с исходной аудиозаписью, выходной файл в имени содержит апгрейды по скорости и громкости + имя файла из команды):
 
-`ut file path: data/audio/1.2_vol_1.2_speed_test_audio.wav`
+`Out file path: data/audio/1.2_vol_1.2_speed_test_audio.wav`
 
 ### Testing
-`python -m tests`
+`python -m tests.run_tests`
 
